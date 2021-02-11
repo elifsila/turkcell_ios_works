@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.1)
+  - NextLevel (0.16.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - NextLevel
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NextLevel
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  NextLevel: f84ecba5c546a87e245809e0523ef3a24897323b
+
+PODFILE CHECKSUM: d1288d2794ac63fcbbdbb2b702ee5afdbfb8c08f
+
+COCOAPODS: 1.10.1
