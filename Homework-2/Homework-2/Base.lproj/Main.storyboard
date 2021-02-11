@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sdL-Dj-VjG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EVA PERON-->
+        <scene sceneID="oak-7v-aLw">
+            <objects>
+                <tableViewController id="n44-rK-Oad" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ubj-BM-DnS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79097498282588563" green="1" blue="0.92906354196479579" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.77664158221716284" green="1" blue="0.97140507923135377" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <sections>
+                            <tableViewSection id="XDf-Gb-0K7">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="ssX-e0-amN" detailTextLabel="BR9-Q8-ich" imageView="0Jv-fm-kKn" style="IBUITableViewCellStyleSubtitle" id="nzz-lv-Gbl">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="62.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nzz-lv-Gbl" id="mmt-m7-Ll9">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="62.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Biyografi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ssX-e0-amN">
+                                                    <rect key="frame" x="98" y="12" width="77" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.27563192440000001" green="0.048303449290000001" blue="0.48771454019999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1919 - 1952" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BR9-Q8-ich">
+                                                    <rect key="frame" x="98" y="36" width="67" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.15944601452266779" green="0.061079430042310229" blue="0.27374109455958551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="biyografi" id="0Jv-fm-kKn">
+                                                    <rect key="frame" x="20" y="0.0" width="63" height="62.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xdU-ks-N3o" kind="show" id="hB4-J2-JMm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GSK-61-zNP" detailTextLabel="UMo-lU-1TR" imageView="0Ss-7n-XHV" style="IBUITableViewCellStyleSubtitle" id="zGm-cC-1vO">
+                                        <rect key="frame" x="0.0" y="90.5" width="414" height="62.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zGm-cC-1vO" id="tSw-UL-HYo">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="62.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Neler yaptı?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GSK-61-zNP">
+                                                    <rect key="frame" x="98" y="12" width="104" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.27563192440000001" green="0.048303449290000001" blue="0.48771454019999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1945 - 1952" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UMo-lU-1TR">
+                                                    <rect key="frame" x="98" y="36" width="69" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.15944601450000001" green="0.06107943004" blue="0.27374109460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="yaptıkları" id="0Ss-7n-XHV">
+                                                    <rect key="frame" x="20" y="0.0" width="63" height="62.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5Ua-kA-Njo" kind="show" id="4VL-du-7Rh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="s6l-1z-Esj" imageView="JkX-ap-Sbu" rowHeight="62" style="IBUITableViewCellStyleDefault" id="sSr-eS-8tq">
+                                        <rect key="frame" x="0.0" y="153" width="414" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sSr-eS-8tq" id="9bg-z4-sLg">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Film &amp; Belgesel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s6l-1z-Esj">
+                                                    <rect key="frame" x="97" y="0.0" width="278" height="62"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.27563192440000001" green="0.048303449290000001" blue="0.48771454019999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="movies" id="JkX-ap-Sbu">
+                                                    <rect key="frame" x="20" y="0.0" width="62" height="62"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="548-zJ-S2A" kind="show" id="DWl-RG-Ldz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="n44-rK-Oad" id="fvF-X2-6ao"/>
+                            <outlet property="delegate" destination="n44-rK-Oad" id="t0i-Ho-SCy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="EVA PERON" id="Yzb-pE-n2p"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mu1-Li-1o5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297.10144927536237" y="-131.25"/>
+        </scene>
+        <!--Biyografi-->
+        <scene sceneID="a0O-Wj-2AZ">
+            <objects>
+                <viewController title="Biyografi" id="xdU-ks-N3o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZTJ-Gb-NMY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ktx-Sb-Yo0">
+                                <rect key="frame" x="28" y="394" width="366" height="440"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">    María Eva Duarte de Perón (7 Mayıs 1919 - 26 Temmuz 1952), Arjantin Başkanı Juan Domingo Perón'un ikinci eşidir. Arjantin halkının çok sevdiği Perón, İspanyolca "Küçük Eva" anlamına gelen Evita lakabıyla bilinirdi.
+
+    Arjantin'in Los Toldos kentinde, beş çocuklu fakir bir ailenin en küçük çocuğu olarak dünyaya geldi. Babasını yedi yaşındayken kaybetti ve 14 yaşında aktris olmak için Buenos Aires'e gitti. Buenos Aires'te bir süre işsiz ve parasız kaldıktan sonra radyolarda çalışmaya başladı. Radyoda şovlar yaparak ve tiyatroda küçük rollerde oynayarak hayatını devam ettiren Evita, 1944 yılında Juan Domingo Peron ile tanıştı. Genç bir subay olan Juan Peron, 1943 yılında ülke yönetiminde önemli bir görev üstlendi. “Teniente Coronel” yani albay unvanlı Juan Domingo Peron, 1943 yılındaki askeri darbede rol oynayarak siyasete girdi. Çalışma Bakanı olarak hükümette yer aldı ve 'emekçi babası' olarak tanındı.
+
+    Düşük gelirli işçilerin durumlarını düzeltmeye yönelik çalışan Juan Domingo Peron, 1944 yılındaki darbenin ardından tutuklansa da Eva Peron ve arkadaşlarının işçileri yanlarına alarak başlattıkları grevler neticesinde serbest bırakıldı. Bundan çok kısa bir süre sonra da Eva ile Juan Peron evlendi. Juan Peron, 1946 tarihinde de Başbakan oldu, iki defa seçildi ve 1955 yılında yine bir askeri darbe ile ayrıldı. Birkaç darbe daha geçtikten sonra 1973 yılında Peron bir kere daha seçimle başa geldi, 1974 yılında ise öldü. Bu sefer Evita'nın ölümünden sonra evlendiği yeni eşi Isabel Peron başa geçti. 1976 yılında ise Isabel de hükümetle beraber düştü.
+
+    Evita, kocasının diktatörlüğü döneminde kadın hakları için çalıştı ve aktif anlamda siyasetin içinde yer almamasına karşılık, her zaman siyasetle ve halkla iç içe oldu. İşçi sendikalarının örgütlenmesinde önemli rol üstlendi ve 1947 yılında kadınların oy verme hakkı elde etmesini sağladı. Fakir halka yiyecek, para ve ilaç yardımında bulundu, çocuklar için de yardım kampanyaları düzenledi.
+
+    Juan Peron'un ikinci kez başkan seçilmesinden birkaç gün sonra Eva Peron, bir devlet töreni ile, "ulusun ruhani lideri" olarak adlandırıldı. Tedavisi için gittiği Amerika'da kemoterapi gördü. O dönemde çok yaygın olmayan bu tedavi şekli ilk defa bir Arjantin vatandaşına uygulanmaktaydı.[1] Evita Peron, 26 Temmuz 1952’de 33 yaşında kanserden öldü. Peron'un iktidardan düşmesinden sonra gömüldüğü yerden çıkartılan cesedi 16 yıl saklandıktan sonra önce eşinin yanına, sonra da aile mezarlığına defnedildi.
+
+Hayatını anlatan ‘Evita’ müzikali yıllar sonra sahnelendi. Madonna daha sonra bu müzikalin beyaz perde uyarlamasında rol aldı. Bugün, Buenos Aires'de Eva Peron adına Museo Evita Müzesi, Milli Kütüphane bahçesinde adına yapılan bir anıt ve çeşitli kuruluşlar bulunuyor.
+
+Link: https://tr.wikipedia.org/wiki/Eva_Perón
+
+Adress: Recoleta Mezarlığı, Buenos Aires, Arjantin</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eva-peron" translatesAutoresizingMaskIntoConstraints="NO" id="sgG-e2-ZKh">
+                                <rect key="frame" x="20" y="125" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WA4-gW-QvX"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="AccentColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Biyografi" id="FT6-qx-nCh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iNC-k4-NVy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="-491.51785714285711"/>
+        </scene>
+        <!--Film & Belgeseller-->
+        <scene sceneID="zmd-RA-twY">
+            <objects>
+                <tableViewController title="Film &amp; Belgeseller" id="548-zJ-S2A" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lSV-Dv-uZF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="z4r-N6-Tpv">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="4TJ-MI-bnp" detailTextLabel="Qov-5q-VfM" imageView="EdP-N4-feJ" rowHeight="72" style="IBUITableViewCellStyleSubtitle" id="v02-5n-rpw">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v02-5n-rpw" id="KX0-eS-JMb">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="72"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Circus Cavalcade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4TJ-MI-bnp">
+                                                    <rect key="frame" x="99" y="12.5" width="152" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.77831525259067358" green="0.2344612634991112" blue="0.38587345377903265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Moive - 1945" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qov-5q-VfM">
+                                                    <rect key="frame" x="99" y="40" width="85.5" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iconfinder_Audio_-_Video_-_Game_01_2298385" id="EdP-N4-feJ">
+                                                    <rect key="frame" x="20" y="4" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iB0-mp-hKY" kind="show" id="XUg-yr-a1D"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9Iv-Tb-yoF" detailTextLabel="2Mi-wU-lRH" imageView="x9R-K4-UNL" rowHeight="64" style="IBUITableViewCellStyleSubtitle" id="Oa9-kd-n6n">
+                                        <rect key="frame" x="0.0" y="100" width="414" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Oa9-kd-n6n" id="rgZ-kY-3k7">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="The Evita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Iv-Tb-yoF">
+                                                    <rect key="frame" x="99" y="11.5" width="81.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.45910316048748945" green="0.64351926813471505" blue="0.190079481991314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Musical - 1978" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Mi-wU-lRH">
+                                                    <rect key="frame" x="99" y="36" width="95" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iconfinder_Curtain-show-circus-blinds_3357488" id="x9R-K4-UNL">
+                                                    <rect key="frame" x="20" y="0.0" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xeg-zq-Tbh" kind="show" id="rld-Db-VdE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="HjZ-xi-kJ6" detailTextLabel="2G6-pq-dvL" imageView="fiS-dx-1bf" rowHeight="73" style="IBUITableViewCellStyleSubtitle" id="1Ya-Nm-Thq">
+                                        <rect key="frame" x="0.0" y="164" width="414" height="73"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Ya-Nm-Thq" id="5wg-UB-F4I">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="73"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="The Prodigal Woman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HjZ-xi-kJ6">
+                                                    <rect key="frame" x="99" y="12.5" width="182" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.77831525260000001" green="0.23446126349999999" blue="0.38587345379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Movie - 1984" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2G6-pq-dvL">
+                                                    <rect key="frame" x="99" y="40" width="85.5" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iconfinder_Audio_-_Video_-_Game_01_2298385" id="fiS-dx-1bf">
+                                                    <rect key="frame" x="20" y="4.5" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fxC-zp-dd9" kind="show" id="Get-68-BFt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="5Hz-zx-ySg" detailTextLabel="kSx-id-bK1" imageView="mVx-cJ-yjv" rowHeight="71" style="IBUITableViewCellStyleSubtitle" id="wPG-mm-gaA">
+                                        <rect key="frame" x="0.0" y="237" width="414" height="71"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wPG-mm-gaA" id="YeQ-vN-WMQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="71"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Don't Cry for Me Argentina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Hz-zx-ySg">
+                                                    <rect key="frame" x="99" y="11.5" width="234" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.34208643420207968" green="0.64351926813471505" blue="0.63814651665127753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Song - 1976" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kSx-id-bK1">
+                                                    <rect key="frame" x="99" y="39" width="79" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iconfinder_microphone_811465" id="mVx-cJ-yjv">
+                                                    <rect key="frame" x="20" y="3.5" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Um8-os-Sm2" kind="show" id="U7W-oS-NlY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="KUB-RJ-O9M" detailTextLabel="CZ8-Lw-4ir" imageView="Inl-OU-7Zs" rowHeight="72" style="IBUITableViewCellStyleSubtitle" id="dCf-DJ-XV9">
+                                        <rect key="frame" x="0.0" y="308" width="414" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dCf-DJ-XV9" id="Kjw-nC-buO">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="72"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Evita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KUB-RJ-O9M">
+                                                    <rect key="frame" x="99" y="12.5" width="42.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.89633257772020725" green="0.57508795628567355" blue="0.058060822964981926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Documentary - 2008" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CZ8-Lw-4ir">
+                                                    <rect key="frame" x="99" y="40" width="135.5" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="iconfinder_video_camera_record_facetime_5402436" id="Inl-OU-7Zs">
+                                                    <rect key="frame" x="20" y="4" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Xmr-Zx-Hiv" kind="show" id="REN-ao-831"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="548-zJ-S2A" id="y2K-Kl-zHk"/>
+                            <outlet property="delegate" destination="548-zJ-S2A" id="KBA-l5-zu3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Film &amp; Belgeseller" id="DGC-Bj-ZTw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yyb-Vw-Y0s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.79710144927537" y="755.35714285714278"/>
+        </scene>
+        <!--Circus Cavalcade-->
+        <scene sceneID="29z-Gc-327">
+            <objects>
+                <viewController title="Circus Cavalcade" id="iB0-mp-hKY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5PN-Wl-pUm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="ssw-eR-rVS">
+                                <rect key="frame" x="20" y="135" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6zc-4y-2gf">
+                                <rect key="frame" x="50" y="421" width="314" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Yayın tarihi: 30 Mayıs 1945 (Buenos Aires)
+
+Yönetmenleri: Mario Soffici, Eduardo Boneo
+
+Film müziğinin bestecisi: Isidro B. Maiztegui
+
+Yapım şirketi: Estudios San Miguel
+
+Senaryo: Mario Soffici, Francisco Madrid
+
+Circus Cavalcade, Mario Soffici tarafından Eduardo Boneo ve Francisco Madrid ile birlikte yönetilen ve yazdığı 1945 Arjantinli bir müzik filmi. Film, mono bir film müziği ile siyah beyaz stok üzerine çekildi. Libertad Lamarque ve Hugo del Carril'in yıldızları</string>
+                                <color key="textColor" red="0.011843950216539103" green="0.050380598439173772" blue="0.27244575777202074" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5c0-YZ-eS3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Circus Cavalcade" id="jQu-M9-ZMU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FrK-X1-d6O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3240.579710144928" y="24.776785714285712"/>
+        </scene>
+        <!--Evita-->
+        <scene sceneID="sDQ-UV-ZOD">
+            <objects>
+                <viewController title="Evita" id="Xmr-Zx-Hiv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1aw-m7-FyV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2ba-S0-LwX">
+                                <rect key="frame" x="54" y="437" width="307" height="386"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Yönetmenler: Eduardo Montes-Bradley
+
+Başroldekiler: Eva Peron, Juan Peron
+
+Tür: Belgesel
+
+Altyazılar: Yok
+
+Dil: İngilizce
+
+"Birkaç kişi tiyatroda ve filmde rol oynamaya çalıştı, ancak şimdiye kadar sadece bir kişi başardı. Adı Eva Duarte de Peron'du ve dünya onu Evita olarak tanıyacaktı."</string>
+                                <color key="textColor" red="0.01184395022" green="0.05038059844" blue="0.27244575780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="WFw-gy-pSk">
+                                <rect key="frame" x="20" y="133" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lvz-xt-YX1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Evita" id="VLG-se-wbQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9sc-6v-52z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1571.0144927536232" y="1984.8214285714284"/>
+        </scene>
+        <!--Don't Cry for Me Argentina-->
+        <scene sceneID="fAt-ba-L6U">
+            <objects>
+                <viewController title="Don't Cry for Me Argentina" id="Um8-os-Sm2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Idr-Av-IRL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="AkF-Zo-wJ0">
+                                <rect key="frame" x="20" y="135" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yAX-p7-au7">
+                                <rect key="frame" x="67" y="424" width="290" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Yayımlanma: 22 Aralık 1996
+
+Format: Kaset &amp; CD &amp; 7, 12
+
+Tarz: Pop, ballad
+
+Süre: 5:37
+
+Şirket: Sire, Warner Bros., Maverick
+
+Yazar: Andrew Lloyd Webber, Tim Rice
+
+Yapımcı: Nigel Wright, Alan Parker, Andrew Lloyd Webber, David Caddick 
+
+"Don't Cry For Me Argentina" Amerikalı ünlü pop müzik şarkıcısı Madonna'nın 1996 Evita filminin film müzikleri albümü için yaptığı ikinci şarkıdır. Şarkı Sire Records tarafından yayınlanmıştır.</string>
+                                <color key="textColor" red="0.01184395022" green="0.05038059844" blue="0.27244575780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4fx-Hd-WTH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Don't Cry for Me Argentina" id="qPJ-so-c3E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eyc-Zm-dMX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2582.608695652174" y="1978.7946428571427"/>
+        </scene>
+        <!--The Prodigal Woman-->
+        <scene sceneID="o2h-24-fqc">
+            <objects>
+                <viewController title="The Prodigal Woman" id="fxC-zp-dd9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IPD-nP-XyH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="r1x-rQ-WVM">
+                                <rect key="frame" x="20" y="135" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NPr-qI-ofp">
+                                <rect key="frame" x="54" y="433" width="307" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Yayın tarihi: 16 Ağustos 1984 (Arjantin)
+
+Yönetmenleri: Mario Soffici, Ralph Pappier, Leo Fleider
+
+Öykü: Pedro Antonio de Alarcón
+
+Senaryo: Alejandro Casona
+
+Film müziğinin bestecisi: Alejandro Gutiérrez del Barrio
+
+Prodigal Woman, Mario Soffici'nin yönettiği ve Leo Fleider ve Ralph Pappier'in yönetmenliğini yaptığı Arjantinli bir dram filmi</string>
+                                <color key="textColor" red="0.01184395022" green="0.05038059844" blue="0.27244575780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yqs-fp-QGe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="The Prodigal Woman" id="hHB-pC-Rdb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdO-LF-7HX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3240.579710144928" y="1368.75"/>
+        </scene>
+        <!--The Evita-->
+        <scene sceneID="6ko-qT-Rvr">
+            <objects>
+                <viewController title="The Evita" id="xeg-zq-Tbh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mDX-bt-Tmb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="iRy-EH-n6J">
+                                <rect key="frame" x="20" y="133" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2hc-t3-MdE">
+                                <rect key="frame" x="54" y="402" width="307" height="432"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">İlk çalındığı tarih ve yer: 21 Haziran 1978
+
+Besteci: Andrew Lloyd Webber
+
+Söz yazarı: Tim Rice
+
+Yazar: Tim Rice
+
+Karakterler: Evita Peron, Perón's Mistress, Ché, Juan Perón, Agustín Magaldi
+
+Evita, Arjantin Devlet Başkanı Juan Peron'un eşi Eva Peron'un hayat hikâyesini anlatan müzikaldir. Andrew Lloyd Webber tarafından, Tim Rice'ın metinleri üzerine bestelenmiştir. Don't Cry for me Argentina! adlı bölümü, müzikalle birlikte anılıyor olup, ismiyle özdeşleşmiş hâle gelmiştir.</string>
+                                <color key="textColor" red="0.01184395022" green="0.05038059844" blue="0.27244575780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d74-R8-tQK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="The Evita" id="ykI-5C-4a1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jEe-xj-OmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3240.579710144928" y="675.66964285714278"/>
+        </scene>
+        <!--Neler yaptı?-->
+        <scene sceneID="kyQ-gQ-YQt">
+            <objects>
+                <viewController title="Neler yaptı?" id="5Ua-kA-Njo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XPp-Zf-abm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eva_yaptıkları" translatesAutoresizingMaskIntoConstraints="NO" id="LOX-pU-zZu">
+                                <rect key="frame" x="20" y="122" width="374" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZeD-3B-K5j">
+                                <rect key="frame" x="20" y="391" width="374" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">    Ülke siyasetinde ve tarihinde silinmeyecek bir iz bırakan ve ‘ulusun ruhani lideri’ olarak anılan Evita yani Eva Peron'un hayatının oldukça zorlu bir süreç olduğu söylenebilir. Darbelerin gölgesinde Arjantin halkı için sürekli çalışan ve erken yaşta hayatını kaybeden Eva Peron'un yaşamında yaptıklarına özetle bakalım.
+
+    Beş çocuklu fakir bir ailenin en küçük çocuğu olan Eva babasını yedi yaşındayken kaybetti ve 14 yaşında aktris olmak için Buenos Aires'e gitti.
+
+    Buenos Aires'te bir süre işsiz ve parasız kaldıktan sonra radyolarda çalışmaya başladı. Radyoda şovlar yaparak ve tiyatroda küçük rollerde oynayarak hayatını devam ettiren Evita, 1944 yılında Juan Domingo Peron ile tanıştı.“Teniente Coronel” yani albay unvanlı Juan Domingo Peron, 1943 yılındaki askeri darbede rol oynayarak siyasete girdi. Çalışma Bakanı olarak hükümette yer aldı ve 'emekçi babası' olarak tanındı.Düşük gelirli işçilerin durumlarını düzeltmeye yönelik çalışan Juan Domingo Peron, 1944 yılındaki darbenin ardından tutuklansa da Eva Peron ve arkadaşlarının işçileri yanlarına alarak başlattıkları grevler neticesinde serbest bırakıldı.Bundan çok kısa bir süre sonra da Eva Peron ile Juan Peron evlendi. Juan Peron, 1946 tarihinde yeniden Başbakan oldu ve 1955 yılında yine bir askeri darbe ile ayrıldı. Birkaç darbe daha geçtikten sonra tarih 1973 yılını gösterdiğinde Juan Domingo Peron bir kere daha seçimle başa geldi ve bu, onun son kez seçim zaferi oldu. Juan Domingo Peron, 1974 yılında hayatını kaybetti.
+
+    Evita, kocasının döneminde kadın hakları için çalıştı ve aktif anlamda siyasetin içinde yer almamasına karşılık, her zaman siyasetle ve halkla iç içe oldu. İşçi sendikalarının örgütlenmesinde önemli rol üstlendi ve 1947 yılında kadınların oy verme hakkı elde etmesini sağladı. Fakir halka yiyecek, para ve ilaç yardımında bulundu, çocuklar için de yardım kampanyaları düzenledi.
+
+    Juan Peron'un ikinci kez başkan seçilmesinden birkaç gün sonra Eva Peron, bir devlet töreni ile, "ulusun ruhani lideri" olarak adlandırıldı. Tedavisi için gittiği Amerika'da kemoterapi gördü. O dönemde çok yaygın olmayan bu tedavi şekli ilk defa bir Arjantin vatandaşına uygulanmaktaydı.
+
+    Evita Peron, 26 Temmuz 1952’de 33 yaşında kanserden hayatını kaybetti. Peron'un iktidardan düşmesinden sonra gömüldüğü yerden kocasının isteği üzerine çıkartılan cesedi 16 yıl saklandıktan sonra önce eşinin yanına, sonra da aile mezarlığına defnedildi.
+
+
+Link: https://www.milliyet.com.tr/eva-peron-arjantin-ulusunun-ruhani-lideri--molatik-17718/?Sayfa=9
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wlm-l9-1sT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Neler yaptı?" id="dEd-oc-25f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUX-XK-1Ho" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740.5797101449277" y="38.839285714285715"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N7B-R8-vOb">
+            <objects>
+                <navigationController id="sdL-Dj-VjG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rjE-Us-ww4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="n44-rK-Oad" kind="relationship" relationship="rootViewController" id="7K6-sf-kee"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKI-gU-Uie" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1182" y="-131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="441" height="667"/>
+        <image name="2" width="660" height="1024"/>
+        <image name="3" width="567" height="854"/>
+        <image name="4" width="599" height="601"/>
+        <image name="5" width="353" height="500"/>
+        <image name="biyografi" width="64" height="64"/>
+        <image name="eva-peron" width="483" height="600"/>
+        <image name="eva_yaptıkları" width="976" height="549"/>
+        <image name="iconfinder_Audio_-_Video_-_Game_01_2298385" width="64" height="64"/>
+        <image name="iconfinder_Curtain-show-circus-blinds_3357488" width="64" height="64"/>
+        <image name="iconfinder_microphone_811465" width="64" height="64"/>
+        <image name="iconfinder_video_camera_record_facetime_5402436" width="64" height="64"/>
+        <image name="movies" width="64" height="64"/>
+        <image name="yaptıkları" width="64" height="64"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
